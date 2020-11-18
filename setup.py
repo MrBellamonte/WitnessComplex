@@ -21,11 +21,11 @@ def get_version(filename):
     return version
 
 
-version = get_version(filename='src/__init__.py')
+#version = get_version(filename='src/__init__.py')
 
 setuptools.setup(
     name='witnesscomplex',
-    version=version,
+    version='0.0.2',
     author='Simon Schoenenberger',
     author_email='schsimo@ethz.ch',
     package_dir={'': 'src'},
