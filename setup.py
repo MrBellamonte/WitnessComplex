@@ -9,7 +9,7 @@ setuptools.setup(
     author='Simon Schoenenberger',
     author_email='schsimo@ethz.ch',
     package_dir={'': 'src'},
-    packages=['package_name'],
+    packages=['witnesscomplex'],
     url='https://github.com/MrBellamonte/WitnessComplex',
     description='Witness complex construction package.',
     long_description=long_description,
