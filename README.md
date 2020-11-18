@@ -20,6 +20,9 @@ Note: The computation of the simplicial complex is rather inefficient at this po
 ### Example
 
 ```python
+import torch
+from witnesscomplex.simplicial_complex import WitnessComplex
+
 witnesses = torch.randn((100,2))
 landmarks = witnesses[:20,:]
 
