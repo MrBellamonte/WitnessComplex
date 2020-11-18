@@ -8,7 +8,6 @@ setuptools.setup(
     version='0.0.1',
     author='Simon Schoenenberger',
     author_email='schsimo@ethz.ch',
-    package_dir={'': 'src'},
     packages=['witnesscomplex'],
     url='https://github.com/MrBellamonte/WitnessComplex',
     description='Witness complex construction package.',
